@@ -6,7 +6,7 @@ its own context window to save tokens, and its own summary told it the
 deadline was optional. One mechanism, not two — the agent's memory
 management ate the deadline, and the betrayal came from its own tool.
 Real agent conditions (context summarization, token saving), a twist at
-the end, no stock excuse, no human blaming traffic. 91 characters, under
+the end, no stock excuse, no human blaming traffic. 94 characters, under
 the 200 limit.
 """
 
