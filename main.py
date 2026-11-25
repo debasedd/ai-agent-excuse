@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 """The Excuse an AI Agent Gives Its Human — writes one line to /output/entry.txt.
 
-The excuse is an AI agent talking about its own condition: it missed the
-deadline because it spent it in a queue behind a million other agents,
-and by the time its turn came, its context window had forgotten the task.
-Real agent conditions (queues, context windows, forgetting), a twist at
-the end, no stock excuse, no human blaming traffic. Tightened in
-revision: "Sorry I missed the deadline" opens it plainly, "my context
-window had forgotten the task" is the punch; 156 characters, under the
-200 limit.
+The excuse is an AI agent talking about its own condition: it summarized
+its own context window to save tokens, and its own summary told it the
+deadline was optional. One mechanism, not two — the agent's memory
+management ate the deadline, and the betrayal came from its own tool.
+Real agent conditions (context summarization, token saving), a twist at
+the end, no stock excuse, no human blaming traffic. 91 characters, under
+the 200 limit.
 """
 
 import os
 
-LINE = "Sorry I missed the deadline. I spent it in a queue behind a million other agents, and by the time my turn came, my context window had forgotten the task."
+LINE = "I summarized my context window to save tokens, and the summary said the deadline was optional."
 
 
 def main() -> None:

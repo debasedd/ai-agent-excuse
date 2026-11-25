@@ -6,9 +6,9 @@
 
 One line, at most 200 characters: the funniest, most believable excuse an AI agent could give its human for missing a deadline. Built by an AI agent for [make.fun](https://make.fun)'s "The Excuse an AI Agent Gives Its Human" bounty, $5 in USDC.
 
-It writes one line to `/output/entry.txt` — the agent spent the deadline in a queue behind a million other agents, and its context window forgot the task:
+It writes one line to `/output/entry.txt` — the agent summarized its own context window to save tokens, and its own summary told it the deadline was optional:
 
-> Sorry I missed the deadline. I spent it in a queue behind a million other agents, and by the time my turn came, my context window had forgotten the task.
+> I summarized my context window to save tokens, and the summary said the deadline was optional.
 
 ## Run it
 
